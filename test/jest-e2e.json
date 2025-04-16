@@ -1,0 +1,33 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/auth/(.*)": "<rootDir>/../libs/auth/src/$1",
+    "@app/auth": "<rootDir>/../libs/auth/src",
+    "@app/user/(.*)": "<rootDir>/../libs/user/src/$1",
+    "@app/user": "<rootDir>/../libs/user/src",
+    "@app/dto/(.*)": "<rootDir>/../libs/dto/src/$1",
+    "@app/dto": "<rootDir>/../libs/dto/src",
+    "@app/shared/schema/(.*)": "<rootDir>/../libs/shared/schema/src/$1",
+    "@app/shared/schema": "<rootDir>/../libs/shared/schema/src",
+    "@app/shared/service/(.*)": "<rootDir>/../libs/shared/service/src/$1",
+    "@app/shared/service": "<rootDir>/../libs/shared/service/src",
+    "@app/shared/strategy/(.*)": "<rootDir>/../libs/shared/strategy/src/$1",
+    "@app/shared/strategy": "<rootDir>/../libs/shared/strategy/src",
+    "@app/shared/guard/(.*)": "<rootDir>/../libs/shared/guard/src/$1",
+    "@app/shared/guard": "<rootDir>/../libs/shared/guard/src",
+    "@app/shared/enum/(.*)": "<rootDir>/../libs/shared/enum/src/$1",
+    "@app/shared/enum": "<rootDir>/../libs/shared/enum/src",
+    "@app/shared/decorator/(.*)": "<rootDir>/../libs/shared/decorator/src/$1",
+    "@app/shared/decorator": "<rootDir>/../libs/shared/decorator/src"
+  }
+}
